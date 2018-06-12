@@ -1,0 +1,43 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <meta charset="utf8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> Tic-Tac-Toe </title>
+    <link rel="stylesheet" type="text/css" href="app.css" />
+</head>
+
+<body>
+
+
+
+    <h1 class="title"> Tic-Tac-Toe </h1>
+
+    <div id="app"></div>
+    <div id="app2"></div>
+    <div class="showhide"><button onclick="myFunction()">Toggle game 2</button></div>
+
+
+    <script src="https://unpkg.com/react@15/dist/react.min.js"></script>
+    <script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <script type="text/jsx" src="components/Scoreboard.js"></script>
+    <script type="text/jsx" src="components/Board.js"></script>
+    <script type="text/jsx" src="components/TicTacToe.js"></script>
+<script>
+function myFunction() {
+    var x = document.getElementById("app2");
+    if (x.style.display === "inline-block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "inline-block";
+    }
+}
+</script>
+
+</body>
+
+</html>
