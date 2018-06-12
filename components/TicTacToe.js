@@ -3,7 +3,7 @@ class TicTacToe extends React.Component {
     constructor() {
         super();
         this.state = {
-            grid_size: 3 // 3 x 3 is initial table size
+            grid_size: 3
         };
     }
 

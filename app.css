@@ -33,7 +33,7 @@ button {
 }
 
 .tic-tac-toe .board td {
-    border: 2px solid #000;
+    border: 2px solid black;
     height: 100px;
     width: 100px;
     text-align: center;
@@ -64,15 +64,21 @@ button {
 }
 
 .tic-tac-toe .board td.X {
-    color: #238EE1;
+    color: blue;
 }
 
 .tic-tac-toe .board td.O {
-    color: #FF1010;
+    color: red;
 }
 
 .tic-tac-toe .scoreboard {
   margin: auto;
+}
+
+.tic-tac-toe .scoreboard input {
+  margin: auto;
+    width: 120px;
+    text-align: center;
 }
 
 .tic-tac-toe .scoreboard .score {
@@ -81,9 +87,9 @@ button {
 }
 
 .tic-tac-toe .scoreboard .score.X {
-    color: #238EE1;
+    color: blue;
 }
 
 .tic-tac-toe .scoreboard .score.O {
-    color: #FF1010;
+    color: red;
 }

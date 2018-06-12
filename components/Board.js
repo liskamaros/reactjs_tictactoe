@@ -1,10 +1,3 @@
-/*
- * this.props.grid_size: Contains grid size
- *                       N x N table (N - Rows, N - Columns) is generated
- *
- * this.props.data: Object, Contains data related to whether column is marked or not
- *                  We use combination or row+column to identify the specific column 01, 02, 03 etc
- */
 class Board extends React.Component {
     render() {
         var dummy_array = Array.apply(null, Array(this.props.grid_size));

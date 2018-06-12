@@ -3,9 +3,9 @@ class Scoreboard extends React.Component {
     return (
       <table className="scoreboard">
         <tr>
-          <td> Player 1 </td>
+          <td> <input type="text" name="name" placeholder="player 1" /> </td>
           <td width="30"> &nbsp; </td>
-          <td> Player 2 </td>
+          <td> <input type="text" name="name" placeholder="player 2" /> </td>
         </tr>
         <tr>
           <td className="score X">
